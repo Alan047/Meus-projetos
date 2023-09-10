@@ -18,7 +18,7 @@
     position: absolute;
     background-color: #b6d8c0;
     height: 500px;
-    width: 400px;
+    width: 375px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
 
@@ -73,12 +73,16 @@ input {
 }
 
 input:focus {
-    outline: 2px solid #dadabd;
-    border-top: 2px;
+    outline: none;
+    
 }
 
 form > h2 {
     text-align: center;
+    color: #75b688;
+    text-shadow: 1px 1px 1px #05050444;
+    
+   
 }
 
 
@@ -94,7 +98,7 @@ header {
 #botao-entrar {
     background-color: #75b688 ;
     margin: 10px;
-    width: 96%;
+    width: 93%;
     border-radius: 5px;
     border: 0;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.144);
